@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fine Dine Restaurant</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./food.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Karma:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm bg-body-tertiary custom_nav-container">
+        <div class="container-fluid">
+          <a class="navbar-brand text-dark" href="#"><span>Feane</span></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon text-dark"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-dark" aria-current="page" href="#home-section">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#about-section">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#food-section">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#booking-section">Book A Table</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-dark" aria-current="page" href="#"
+                  ><i class="bi bi-person"></i
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#"><i class="bi bi-cart"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#"><i class="bi bi-search"></i></a>
+              </li>
+              <button class="btn btn-outline-success text-dark" type="submit">
+                Order Online
+              </button>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <main>
+        <section id="home-section">
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="1000">
+                    <img src="./burger4.jpeg" class="d-block w-100" alt="..." id="image">
+                    <div class="carousel-caption">
+                        <h5>Fast Food Restaurant</h5>
+                        <p>Doloremque, itaque aperiam facilis rerum, commodi, temporibus sapiente ad mollitia laborum
+                            quam quisquam esse error unde. Tempora ex doloremque, labore, sunt repellat dolore, iste
+                            magni quos nihil ducimus libero ipsam</p>
+                        <button class="now">Order Now</button>
+
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="./burger1.webp" class="d-block w-100" alt="..." id="image">
+                    <div class="carousel-caption ">
+                        <h5>Fast Food Restaurant</h5>
+                        <p>Doloremque, itaque aperiam facilis rerum, commodi, temporibus sapiente ad mollitia laborum
+                            quam quisquam esse error unde. Tempora ex doloremque, labore, sunt repellat dolore, iste
+                            magni quos nihil ducimus libero ipsam</p>
+                        <button class="now">Order Now</button>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="1500">
+                    <img src="./burger2.webp" class="d-block w-100" alt="..." id="image">
+                    <div class="carousel-caption">
+                        <h5>Fast Food Restaurant</h5>
+                        <p>Doloremque, itaque aperiam facilis rerum, commodi, temporibus sapiente ad mollitia laborum
+                            quam quisquam esse error unde. Tempora ex doloremque, labore, sunt repellat dolore, iste
+                            magni quos nihil ducimus libero ipsam</p>
+                        <button class="now">Order Now</button>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        </section>
+    </main>
+    <div class="offers">
+        <div class="offer1">
+            <div class="image1" style="margin-right: 60px;"></div>
+            <div class="content1">
+                <h3>Tasty Thursdays</h3>
+                <p>20% off</p>
+                <button class="button2">order now</button>
+            </div>
+        </div>
+        <div class="offer2">
+            <div class="image2" style="margin-right: 60px;"></div>
+            <div class="content2">
+                <h3>Pizza Days</h3>
+                <p>15% off</p>
+                <button class="button3">order now</button>
+            </div>
+        </div>
+    </div>
+    <section id="food-section">
+        <div class="food-selection">
+            <div class="Menu">Our Menu</div>
+        </div>
+        <div class="filter-menu">
+            <a href="#">All</a>
+            <a href="#">Burger</a>
+            <a href="#">Pizza</a>
+            <a href="#">Pasta</a>
+            <a href="#">Fries</a>
+        </div>
+        <div class="grid-container">
+            <div class="data1">
+                <div class="img-box">
+                    <img src="https://themewagon.github.io/feane/images/f1.png" alt="food">
+                </div>
+                <div class="details">
+                    <h3>Delicious pizza</h3>
+                    <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem
+                        repellendus
+                        sed eaque</p>
+                </div>
+                <div class="options">
+                    <h5>$20</h5>
+                    <ion-icon name="cart-outline" class="icon4"></ion-icon>
+                </div>
+            </div>
+            <div class="data1">
+                <div class="img-box">
+                    <img src="https://themewagon.github.io/feane/images/f2.png" alt="food">
+                </div>
+                <div class="details">
+                    <h3>Delicious Burger</h3>
+                    <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem
+                        repellendus
+                        sed eaque</p>
+                </div>
+                <div class="options">
+                    <h5>$15</h5>
+                    <ion-icon name="cart-outline" class="icon4"></ion-icon>
+                </div>
+            </div>
+            <div class="data1">
+                <div class="img-box">
+                    <img src="https://themewagon.github.io/feane/images/f3.png" alt="food">
+                </div>
+                <div class="details">
+                    <h3>Delicious Pizza</h3>
+                    <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem
+                        repellendus
+                        sed eaque</p>
+                </div>
+                <div class="options">
+                    <h5>$17</h5>
+                    <ion-icon name="cart-outline" class="icon4"></ion-icon>
+                </div>
+            </div>
+            <div class="data1">
+                <div class="img-box">
+                    <img src="https://themewagon.github.io/feane/images/f4.png" alt="food">
+                </div>
+                <div class="details">
+                    <h3>Delicious Pasta</h3>
+                    <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem
+                        repellendus
+                        sed eaque</p>
+                </div>
+                <div class="options">
+                    <h5>$18</h5>
+                    <ion-icon name="cart-outline" class="icon4"></ion-icon>
+                </div>
+            </div>
+            <div class="data1">
+                <div class="img-box">
+                    <img src="https://themewagon.github.io/feane/images/f5.png" alt="food">
+                </div>
+                <div class="details">
+                    <h3>French Fries</h3>
+                    <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem
+                        repellendus
+                        sed eaque</p>
+                </div>
+                <div class="options">
+                    <h5>$10</h5>
+                    <ion-icon name="cart-outline" class="icon4"></ion-icon>
+                </div>
+            </div>
+            <div class="data1">
+                <div class="img-box">
+                    <img src="https://themewagon.github.io/feane/images/f6.png" alt="food">
+                </div>
+                <div class="details">
+                    <h3>Delicious Pizza</h3>
+                    <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem
+                        repellendus
+                        sed eaque</p>
+                </div>
+                <div class="options">
+                    <h5>$15</h5>
+                    <ion-icon name="cart-outline" class="icon4"></ion-icon>
+                </div>
+            </div>
+            <div class="data1">
+                <div class="img-box">
+                    <img src="https://themewagon.github.io/feane/images/f7.png" alt="food">
+                </div>
+                <div class="details">
+                    <h3>Tasty Burger</h3>
+                    <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem
+                        repellendus
+                        sed eaque</p>
+                </div>
+                <div class="options">
+                    <h5>$12</h5>
+                    <ion-icon name="cart-outline" class="icon4"></ion-icon>
+                </div>
+            </div>
+            <div class="data1">
+                <div class="img-box">
+                    <img src="https://themewagon.github.io/feane/images/f8.png" alt="food">
+                </div>
+                <div class="details">
+                    <h3>Tasty Burger</h3>
+                    <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem
+                        repellendus
+                        sed eaque</p>
+                </div>
+                <div class="options">
+                    <h5>$14</h5>
+                    <ion-icon name="cart-outline" class="icon4"></ion-icon>
+                </div>
+            </div>
+            <div class="data1">
+                <div class="img-box">
+                    <img src="https://themewagon.github.io/feane/images/f9.png" alt="food">
+                </div>
+                <div class="details">
+                    <h3>Delicious Pasta</h3>
+                    <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem
+                        repellendus
+                        sed eaque</p>
+                </div>
+                <div class="options">
+                    <h5>$10</h5>
+                    <ion-icon name="cart-outline" class="icon4"></ion-icon>
+                </div>
+            </div>
+        </div>
+        <div class="view">
+            <button class="button5">View More</button>
+        </div>
+    </section>
+    <section id="about-section">
+        <div class="container2">
+            <div class="description">
+                <h3>We Are Fine Dine</h3>
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                    alteration
+                    in some form, by injected humour, or randomised words which don't look even slightly believable. If
+                    you
+                    are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing
+                    hidden
+                    in the middle of text. All</p>
+                <button class="button6">Read More</button>
+            </div>
+        </div>
+    </section>
+    <section id="booking-section">
+        <div class="table">
+            <div class="book">
+                <h1>Book A Table</h1>
+            </div>
+        </div>
+        <div class="container3">
+            <div class="form">
+                <form>
+                    <div>
+                        <input type="text" id="name" placeholder="Your Name" class="name">
+                    </div>
+                    <div>
+                        <input type="text" id="name" placeholder="Phone Number" class="number">
+                    </div>
+                    <div>
+                        <input type="text" id="name" placeholder="Your Mail" class="mail">
+                    </div>
+                    <div>
+                        <input type="date" id="name" placeholder="dd-mm-yyyy" class="date">
+                    </div>
+                    <div>
+                        <select name="" id="name" class="options">
+                            <option disabled selected="true">How Many persons?</option>
+                            <option value="one">1</option>
+                            <option value="two">2</option>
+                            <option value="three">3</option>
+                            <option value="four">4</option>
+                            <option value="five">5</option>
+                            <option value="six">6</option>
+                        </select>
+                    </div>
+                </form>
+                <div class="online">
+                    <button class="button7">Book Now</button>
+                </div>
+            </div>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6041.429696406044!2d78.40659066862943!3d17.466321072995473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb99daeaebd2c7%3A0xae93b78392bafbc2!2sHyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1731004833770!5m2!1sen!2sin"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+    <div class="review">
+        <h1>What Says Our Customers</h1>
+    </div>
+    <div class="container5">
+        <div class="slide1">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta sapiente non expedita minus iste?
+                Officiis eligendi provident beatae odio officia</p>
+            <div class="context">
+                <span>
+                    <h5>Moana Michell</h5>
+                    <p>magna aliqua</p>
+                </span>
+                <img src="./client1.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="slide1">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta sapiente non expedita minus iste?
+                Officiis eligendi provident beatae odio officia</p>
+            <div class="context">
+                <span>
+                    <h5>Mike Hamell</h5>
+                    <p>magna aliqua</p>
+                </span>
+                <img src="./client2.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="contact">
+        <div>
+            <h3>Contact Us</h3>
+            <p><ion-icon name="location-outline" class="local1 local"></ion-icon>&#160;location</p>
+            <p><ion-icon name="call-outline" class="local2 local"></ion-icon>&#160;call + 01 788939389</p>
+            <p><ion-icon name="mail-outline" class="local3 local"></ion-icon>&#160;finedine@gmail.com</p>
+        </div>
+        <div class="blog">
+            <h3>Fine Dine</h3>
+            <p>Necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin
+                words, combined with </p>
+            <div class="logos">
+                <p><ion-icon name="logo-facebook" class="round4 round"></ion-icon></p>
+                <p><ion-icon name="logo-twitter" class="round5 round"></ion-icon></p>
+                <p><ion-icon name="logo-linkedin" class="round6 round"></ion-icon></p>
+                <p><ion-icon name="logo-instagram" class="round7 round"></ion-icon></p>
+            </div>
+        </div>
+        <div class="times">
+            <h3>Opening Hours</h3>
+            <p>(Mon-Sat)</p>
+            <h5>Every Day</h5>
+            <p>10.00 AM - 10.00 PM</p>
+        </div>
+    </div>
+    <div class="copyrights">
+        <p>&#169;2024 All Rights Reserved By Free Html Templates</p>
+    </div>
+    <div class="copyrights">
+        <p>&#169;Distributed By ThemeWagon</p>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</body>
+
+</html>
